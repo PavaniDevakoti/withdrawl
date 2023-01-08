@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.home-container {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  height: 65vh;
+  width: 60vh;
+  border-radius: 15px;
+  padding: 30px;
+}
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  margin-right: 20px;
+}
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+
+  font-weight: normal;
+}
+.para {
+  color: #585076;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.rs {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: end;
+  padding: 0px;
+  margin: 0px;
+}
+.denom-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
